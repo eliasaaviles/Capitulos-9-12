@@ -5,6 +5,35 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea 9.1", "Tarea 9.1\Tarea 9.1.csproj", "{DB1C83EF-15DB-45E6-B190-8204AAC5E8A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitulo 9", "Capitulo 9", "{B17E3A53-8AFE-4A01-9F2D-C8C5A54915EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.1", "9.1", "{1D6D81F0-3151-45F2-BB38-649C95FEBF23}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.3", "9.3", "{53964224-255E-4A53-AF78-7ADECFF58D0B}"
+	ProjectSection(SolutionItems) = preProject
+		Class2.cs = Class2.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.4", "9.4", "{F7B0B0AF-7EAA-4DF4-8FF8-3238695DD61D}"
+	ProjectSection(SolutionItems) = preProject
+		Class3.cs = Class3.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitulo 12", "Capitulo 12", "{A87A0AAE-5CC5-4856-9303-14761811631A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12.2", "12.2", "{03BC012C-A7ED-41DA-9E3B-E4A5040A39AD}"
+	ProjectSection(SolutionItems) = preProject
+		Class4.cs = Class4.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12.3", "12.3", "{89A1CC65-0584-4BDF-AFCB-37CF2BF9FCCF}"
+	ProjectSection(SolutionItems) = preProject
+		Class5.cs = Class5.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +47,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D6D81F0-3151-45F2-BB38-649C95FEBF23} = {B17E3A53-8AFE-4A01-9F2D-C8C5A54915EE}
+		{53964224-255E-4A53-AF78-7ADECFF58D0B} = {B17E3A53-8AFE-4A01-9F2D-C8C5A54915EE}
+		{F7B0B0AF-7EAA-4DF4-8FF8-3238695DD61D} = {B17E3A53-8AFE-4A01-9F2D-C8C5A54915EE}
+		{03BC012C-A7ED-41DA-9E3B-E4A5040A39AD} = {A87A0AAE-5CC5-4856-9303-14761811631A}
+		{89A1CC65-0584-4BDF-AFCB-37CF2BF9FCCF} = {A87A0AAE-5CC5-4856-9303-14761811631A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C052262-300D-403B-AFB2-E08E624C08F6}
